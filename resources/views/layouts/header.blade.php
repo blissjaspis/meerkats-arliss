@@ -5,11 +5,11 @@
             <span class="text-white font-semibold text-sm tracking-wide">Meerkats Flexipack Indonesia</span>
         </a>
         <div class="hidden md:flex items-center gap-8">
-            <a href="#home" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Home</a>
-            <a href="#about" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">About</a>
-            <a href="#products" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Products</a>
-            <a href="#machinery" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Machinery</a>
-            <a href="#contact" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Contact</a>
+            <a href="{{ route('welcome') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Home</a>
+            <a href="{{ route('about') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">About</a>
+            <a href="{{ route('products') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Products</a>
+            <a href="{{ route('machinery') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Machinery</a>
+            <a href="{{ route('contact') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Contact</a>
         </div>
         {{-- Mobile hamburger --}}
         <button class="md:hidden text-white" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
@@ -20,10 +20,10 @@
     </div>
     {{-- Mobile menu --}}
     <div id="mobile-menu" class="hidden md:hidden bg-navy-dark px-6 pb-4 space-y-3">
-        <a href="#home" class="block text-white text-sm font-medium hover:text-blue-300">Home</a>
-        <a href="#about" class="block text-white text-sm font-medium hover:text-blue-300">About</a>
-        <a href="#products" class="block text-white text-sm font-medium hover:text-blue-300">Products</a>
-        <a href="#machinery" class="block text-white text-sm font-medium hover:text-blue-300">Machinery</a>
-        <a href="#contact" class="block text-white text-sm font-medium hover:text-blue-300">Contact</a>
+        <a href="{{ route('welcome') }}" class="block text-white text-sm font-medium hover:text-blue-300">Home</a>
+        <a href="{{ route('about') }}" class="block text-white text-sm font-medium hover:text-blue-300">About</a>
+        <a href="{{ route('products') }}" class="block text-white text-sm font-medium hover:text-blue-300">Products</a>
+        <a href="{{ route('machinery') }}" class="block text-white text-sm font-medium hover:text-blue-300">Machinery</a>
+        <a href="{{ route('contact') }}" class="block text-white text-sm font-medium hover:text-blue-300">Contact</a>
     </div>
 </nav>

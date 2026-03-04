@@ -15,11 +15,11 @@
             <div>
                 <h4 class="font-bold text-sm uppercase tracking-wider mb-4">Navigation</h4>
                 <ul class="space-y-2 text-sm text-white/70">
-                    <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
-                    <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
-                    <li><a href="#products" class="hover:text-white transition-colors">Products</a></li>
-                    <li><a href="#machinery" class="hover:text-white transition-colors">Machinery</a></li>
-                    <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    <li><a href="{{ route('welcome') }}" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="{{ route('about') }}" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="{{ route('products') }}" class="hover:text-white transition-colors">Products</a></li>
+                    <li><a href="{{ route('machinery') }}" class="hover:text-white transition-colors">Machinery</a></li>
+                    <li><a href="{{ route('contact') }}" class="hover:text-white transition-colors">Contact</a></li>
                 </ul>
             </div>
 
