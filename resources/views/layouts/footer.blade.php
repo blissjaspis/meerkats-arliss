@@ -19,6 +19,7 @@
                     <li><a href="{{ route('about') }}" class="hover:text-white transition-colors">About</a></li>
                     <li><a href="{{ route('products') }}" class="hover:text-white transition-colors">Products</a></li>
                     <li><a href="{{ route('machinery') }}" class="hover:text-white transition-colors">Machinery</a></li>
+                    <li><a href="{{ route('career') }}" class="hover:text-white transition-colors">Career</a></li>
                     <li><a href="{{ route('contact') }}" class="hover:text-white transition-colors">Contact</a></li>
                 </ul>
             </div>

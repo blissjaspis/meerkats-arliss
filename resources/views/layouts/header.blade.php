@@ -9,6 +9,7 @@
             <a href="{{ route('about') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">About</a>
             <a href="{{ route('products') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Products</a>
             <a href="{{ route('machinery') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Machinery</a>
+            <a href="{{ route('career') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Career</a>
             <a href="{{ route('contact') }}" class="text-white text-sm font-medium hover:text-blue-300 transition-colors">Contact</a>
         </div>
         {{-- Mobile hamburger --}}
@@ -24,6 +25,7 @@
         <a href="{{ route('about') }}" class="block text-white text-sm font-medium hover:text-blue-300">About</a>
         <a href="{{ route('products') }}" class="block text-white text-sm font-medium hover:text-blue-300">Products</a>
         <a href="{{ route('machinery') }}" class="block text-white text-sm font-medium hover:text-blue-300">Machinery</a>
+        <a href="{{ route('career') }}" class="block text-white text-sm font-medium hover:text-blue-300">Career</a>
         <a href="{{ route('contact') }}" class="block text-white text-sm font-medium hover:text-blue-300">Contact</a>
     </div>
 </nav>
